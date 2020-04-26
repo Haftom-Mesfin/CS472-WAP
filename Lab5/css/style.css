@@ -1,0 +1,20 @@
+body{
+    border: gray solid 5px;
+}
+h1, h2{
+    text-align: center;
+    color: dimgrey;
+    text-decoration: underline;
+}
+
+pre {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    font-size: 1.2em;
+}
+
+.list-group{
+    list-style: none;
+}
+  
