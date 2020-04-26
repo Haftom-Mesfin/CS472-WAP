@@ -1,5 +1,6 @@
 body{
     border: gray solid 5px;
+    background-image: url("../images/bgimage.jpg");
 }
 h1, h2{
     text-align: center;
@@ -17,4 +18,5 @@ pre {
 .list-group{
     list-style: none;
 }
+
   
