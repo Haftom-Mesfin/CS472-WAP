@@ -14,48 +14,50 @@
 </head>
 
 <body>
-    <form onsubmit="return showLoginFields()">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">LOGIN FORM</h5>
-                </div>
-                <div class="modal-body">
-                    <div class="form-group">
-                        <label for="website-url">Website url</label>
-                        <input type="url" class="form-control" id="website-url" aria-describedby="urlHelp"
-                            name="websiteUrl" placeholder="Enter valid website url" required>
-                        <small id="urlHelp" class="form-text text-muted">Must enter valid website url</small>
+    <div class="container">
+        <form action="" id="form" onsubmit="showLoginFields(event)">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">LOGIN FORM</h5>
                     </div>
-
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                            name="emailAddress" placeholder="Enter valid email" required>
-                        <small id="emailHelp" class="form-text text-muted">Must enter valid email address</small>
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" required name="password"
-                            placeholder="Enter password" pattern="(?=\d+)(?=[a-z]*)(?=[A-Z]*).{10,}" title="Must
-                        contain At least 10 characters, contains at least one
-                        number, one uppercase and lowercase letter" aria-describedby="passwordHelp">
-                        <small id="passwordHelp" class="form-text text-muted">Must
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="website-url">Website url</label>
+                            <input type="url" class="form-control" id="website-url" aria-describedby="urlHelp"
+                                name="websiteUrl" placeholder="Enter valid website url" required>
+                            <small id="urlHelp" class="form-text text-muted">Must enter valid website url</small>
+                        </div>
+    
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                name="emailAddress" placeholder="Enter valid email" required>
+                            <small id="emailHelp" class="form-text text-muted">Must enter valid email address</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" required name="password"
+                                placeholder="Enter password" pattern="(?=\d+)(?=[a-z]*)(?=[A-Z]*).{10,}" title="Must
                             contain At least 10 characters, contains at least one
-                            number, one uppercase and lowercase letter</small>
+                            number, one uppercase and lowercase letter" aria-describedby="passwordHelp">
+                            <small id="passwordHelp" class="form-text text-muted">Must
+                                contain At least 10 characters, contains at least one
+                                number, one uppercase and lowercase letter</small>
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                        </div>
                     </div>
-                    <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                    <div class="modal-footer">                   
+                       <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Forget Password</button>
                     </div>
-                </div>
-                <div class="modal-footer">                   
-                   <button type="submit" class="btn btn-primary">Submit</button>
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Forget Password</button>
                 </div>
             </div>
-        </div>
-    </form>
+        </form>
+    </div>
 
     <p>
         <a href="https://validator.w3.org/check/referer"> <img src="images/w3c-html.png" alt="html validator" /></a>
