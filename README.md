@@ -7,5 +7,6 @@
 *   Lab3 - [Movie Review](https://haftom-mesfin.github.io/CS472-WAP/Lab3/tmnt.html)
 *   Lab4 - [Webforms]( https://haftom-mesfin.github.io/CS472-WAP/Lab4)
 *   Lab5 - [Introduction to Javascript and Interactive web forms]( https://haftom-mesfin.github.io/CS472-WAP/Lab5)
+*   Lab6 - [Decorate - Working with DOM]( https://haftom-mesfin.github.io/CS472-WAP/Lab6)
 
 
