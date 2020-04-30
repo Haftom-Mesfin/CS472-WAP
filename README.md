@@ -8,6 +8,7 @@
 *   Lab4 - [Webforms]( https://haftom-mesfin.github.io/CS472-WAP/Lab4)
 *   Lab5 - [Introduction to Javascript and Interactive web forms]( https://haftom-mesfin.github.io/CS472-WAP/Lab5)
 *   Lab6 - [Decorate - Working with DOM]( https://haftom-mesfin.github.io/CS472-WAP/Lab6)
-*   Lab7 - [Scopes-Closures Practice Exercises](  https://haftom-mesfin.github.io/CS472-WAP/Lab7)
+*   Lab7 - [Scopes-Closures Practice Exercises](https://haftom-mesfin.github.io/CS472-WAP/Lab7)
+*   Lab8 - [Objects-Modules-Inheritance](https://haftom-mesfin.github.io/CS472-WAP/Lab8)
 
 
