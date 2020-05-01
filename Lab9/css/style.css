@@ -1,0 +1,14 @@
+/*
+ style.css
+ Author : Haftom Gebreselassie
+*/
+
+body {
+    font-family: courier, arial, helvetica;
+    text-align: center;
+    font-size: 20px;
+    background-color: azure;
+}
+h1{
+    border: 5px solid red;
+}
