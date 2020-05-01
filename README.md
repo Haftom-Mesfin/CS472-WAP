@@ -10,5 +10,6 @@
 *   Lab6 - [Decorate - Working with DOM]( https://haftom-mesfin.github.io/CS472-WAP/Lab6)
 *   Lab7 - [Scopes-Closures Practice Exercises](https://haftom-mesfin.github.io/CS472-WAP/Lab7)
 *   Lab8 - [Objects-Modules-Inheritance](https://haftom-mesfin.github.io/CS472-WAP/Lab8)
+*   Lab8 - [Inheritance-JQuery-DOM](https://haftom-mesfin.github.io/CS472-WAP/Lab9)
 
 
